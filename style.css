@@ -1,0 +1,211 @@
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f0f0 ;
+	font-family:arial, sans-serif;
+	color:#000000;
+	font-size:100%;
+	min-height: 100%;	
+	padding: 0 10px 0 10px;
+}
+
+h1{
+	text-decoration: underline;	
+	font-size: 60px;
+  font-style: italic;
+}
+
+h2{
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 40px;	
+}
+
+h4{
+	font-style: italic;
+	font-size: 15px;
+  position: center;	
+}
+
+a:visited{
+  color: black;
+}
+
+a:link {
+color: black;
+}
+
+h3{
+	text-decoration: underline;
+	font-size: 25px;	
+  margin: 10px 0  25px 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+p {				
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+#box{
+  position: absolute;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  background-color:#FFFFFF;
+  right: 0;
+  top: 165px;
+ 
+}
+#section-presentation{
+  height: 500px;
+  position: relative;
+
+}
+#section1{
+  height: 400px;
+  position: relative;
+}
+
+#section2{
+  height: 400px;
+  position: relative;
+}
+
+#section3{
+  height: 400px;
+  position: relative;
+}
+
+#image1{
+  margin-left: 10x;
+  margin-right: 20px;
+  float: left;
+}
+
+#image2{
+  margin-left: 20px;
+  margin-right: 10px;
+  float: right;
+}
+
+#image3{
+  margin-left: 10x;
+  margin-right: 20px;
+  float: left;
+}
+
+#texte1{
+  margin-left: 10px;
+  float: right;
+  width: 300px;  
+}
+
+#texte2{
+  float: left;
+  text-align: right;
+  width: 300px;
+}
+
+#texte3{
+  margin-left: 10px;
+  float: right;
+  width: 300px;
+}
+
+.nav {
+	float: right;
+	line-height: 70px;
+  color: 000000;
+}
+
+.nav-titel {
+	float: left;
+	line-height: 65px;
+	font-weight: bold;
+
+}
+
+#footer {
+	border-top: 2px solid black;
+	text-align: right;
+	margin-top: 10em;  
+  
+}
+
+
+#form p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	
+}
+#form {
+	width: 540px;
+	margin-left: 160px;
+}
+
+
+#form  label {
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+	margin: 20px 20px 20px 0;
+}
+
+#message label{
+  display: inline-block;
+	margin: 0 20px 0 0;
+
+}
+
+#form input[type=text] {
+	box-sizing: border-box;
+    width: 380px;
+	text-align: left;
+}
+
+#form textarea {
+	box-sizing: border-box;
+  width: 380px;	
+  display: inline-block;
+  vertical-align: top;
+  
+
+}
+
+#form input[type=submit] {
+    width: 140px;
+	margin-left: 400px;
+
+}
+
+button{
+  width: 140px;
+	margin-left: 400px;
+  text-decoration: underline;
+  font-style: italic;
+  background: transparent;
+  border: none;
+  text-align: right;
+  
+}
+
+#header p{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#header {
+	height: 142px;
+}
+
+#message {
+ margin: 0 0 20px 0;
+ }
+
+
+

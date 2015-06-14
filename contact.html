@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- Attention à bien préciser, c'est important pour ceux qui regardent le code d'un site -->
+<html lang="fr">
+  <head>
+  <!-- L'utf-8 permet d'avoir un encodage avec lecture des caractères spéciaux et cela dans tous les navigateurs, nous avons verifié et tout est ok! -->
+     <meta charset ="utf-8"/>
+     <title>Site Web S&O - Contact</title>
+     <link rel="stylesheet" media="screen" type="text/css" title="Design" href="style.css"/>
+  </head>
+
+  <body>
+  <!-- notre menu de navigation -->
+  <div id="header">
+		<div class="nav-titel">
+			S & 0 
+		</div>
+    <div class="nav">
+      <a href="presentation.html">Pésentation</a>
+      <a href="portfolio.html">Portfolio</a> 
+      <a href="contact.html">Contact</a>
+    </div>								
+	</div>
+
+  <h2>Vous avez une quelconque remarque ou question à nous soumettre? Contactez nous!</h2>
+  <!-- notre formulaire -->
+  <div id="form">
+		<form>
+    <!-- Nous avons verifié que les boutons radios ne soient pas des "checkbox" -->
+      <div>
+				<label>Madame</label> <input type="radio" value="F" name="sexe">
+				<label>Monsieur</label> <input type="radio" value="M" name="sexe">
+			</div>	 
+			<div>
+        <!-- Les éléments sont bien mis en page et sont aligné en haut à droite à côté du textarea qui leur correspond! -->
+				<label>Nom</label><input type="text" name="to">
+			</div>			
+			<div>
+				<label>Prénom</label><input type="text" name="to">
+			</div>
+			<div id="message">
+				<label>Votre message</label><textarea rows="4" cols="50"></textarea>
+			</div>
+        <!-- Le bouton submit envoie les informations et vide les textarea pour un nouveau message. -->
+				<button type="submit" name="submit">Envoyer</button>
+		
+     </form>
+     	</div>
+  <div id="footer">
+		Copyright 2015 - Sarah Perret & Orane Jan du Chêne		
+	</div>
+				
+															   
+                               
+  </body>
+</html>
