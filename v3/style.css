@@ -1,0 +1,271 @@
+/*font-size calcul: context=16px => 1em / 14px => 0,875em */
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0f0f0 ;
+	font-family:arial, sans-serif;
+	color:#000000;
+	font-size:0,875em;
+	min-height: 100%;	
+	padding: 0 1.04166667% 0 1.04166667%;
+  max-width: 960px;
+}
+
+/*font-size calcul: context=16px => 1em / 60px => 3,75em */
+
+h1{
+	text-decoration: underline;	
+	font-size: 3.75em;
+  font-style: italic;
+}
+
+/*font-size calcul: context=16px => 1em / 40px => 2,5em */
+
+h2{
+	text-decoration: underline;
+	font-style: italic;
+	font-size: 2.5em;	
+}
+
+a:visited{
+  color: black;
+}
+
+a:link {
+color: black;
+}
+
+/* font-size calcul: context=16px => 1em / 25px => 1,5625em */
+
+h3{
+	text-decoration: underline;
+	font-size: 1.5625em;	
+  margin: 10px 0 25px 0;
+}
+
+/* font-size calcul: context=16px => 1em / 15px => 0,9375em */
+
+h4{
+	font-style: italic;
+	font-size: 0.9375em;
+  position: center;	
+}
+
+a{
+	text-decoration:none;
+}
+
+p {				
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+
+/*Pourcentage calcul: largeur: 960px / 300x100:960 = 31.25% */
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+
+
+#box{
+  position: absolute;
+  width: 31.25%;
+  height: 250px;
+  padding: 1.04166667%;
+  background-color:#FFFFFF;
+  right: 0;
+  top: 165px;
+}
+
+
+#section-presentation{
+  height: 500px;
+  position: relative;
+  
+}
+
+#section1{
+  height: 400px;
+  position: relative;
+}
+
+#section2{
+  height: 400px;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+#section3{
+  height: 400px;
+  position: relative;
+}
+
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+/*Pourcentage calcul: largeur: 960px / 20x100:960 = 2.08333333% */
+
+#image1{
+  margin-left: 1.04166667%;
+  margin-right: 2.08333333%;
+  border: 1px solid red;
+  max-width: 100%;
+	width: 66.666%;
+  
+}
+
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+/*Pourcentage calcul: largeur: 960px / 20x100:960 = 2.08333333% */
+
+#image2{
+  margin-left: 2.08333333%;
+  margin-right: 1.04166667%;
+  float: right;
+}
+
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+/*Pourcentage calcul: largeur: 960px / 20x100:960 = 2.08333333% */
+
+#image3{
+  margin-left: 1.04166667%;
+  margin-right: 2.08333333%;
+  float: left;
+}
+
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+/*Pourcentage calcul: largeur: 960px / 300x100:960 = 31.25% */
+
+#texte1{
+  margin-left: 1.04166667%;
+  float: right;
+  width: 31.25%;  
+}
+
+/*Pourcentage calcul: largeur: 960px / 300x100:960 = 31.25% */
+
+#texte2{
+  float: left;
+  text-align: right;
+  width: 31.25% ;
+}
+
+/*Pourcentage calcul: largeur: 960px / 300x100:960 = 31.25% */
+/*Pourcentage calcul: largeur: 960px / 10x100:960 = 1.04166667% */
+
+#texte3{
+  margin-left: 1.04166667%;
+  float: right;
+  width: 31.25% ;
+}
+
+
+.nav {
+	float: right;
+	line-height: 70px;
+  color: 000000;
+}
+
+.nav-titel {
+	float: left;
+	line-height: 65px;
+	font-weight: bold;
+
+}
+
+/*Ne pas changer la ligne de pied de page, elle reste en px */
+
+#footer {
+	border-top: 2px solid black;
+	text-align: right;
+	margin-top: 10em;  
+  
+}
+
+
+#form p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+	
+}
+
+/*Pourcentage calcul: largeur: 960px / 540x100:960 = 56.25% */
+/*Pourcentage calcul: largeur: 960px / 160x100:960 = 16.6666667% */
+
+#form {
+	width: 56.25%;
+	margin-left: 16.6666667%;
+}
+
+/*Pourcentage calcul: largeur: 960px / 140x100:960 = 14.5833333% */
+/*Pourcentage calcul: largeur: 960px / 20x100:960 = 2.08333333% */
+
+#form  label {
+	display: inline-block;
+	width: 14.5833333%;
+	text-align: right;
+	margin: 20px 2.08333333% 20px 0;
+}
+
+/*Pourcentage calcul: largeur: 960px / 20x100:960 = 2.08333333% */
+
+#message label{
+  display: inline-block;
+	margin: 0 2.08333333% 0 0;
+
+}
+
+/*Pourcentage calcul: largeur: 960px / 380x100:960 = 39.5833333% */
+
+#form input[type=text] {
+	box-sizing: border-box;
+    width: 39.5833333% ;
+	text-align: left;
+}
+
+/*Pourcentage calcul: largeur: 960px / 380x100:960 = 39.5833333% */
+
+#form textarea {
+	box-sizing: border-box;
+  width: 39.5833333% ;	
+  display: inline-block;
+  vertical-align: top;
+}
+
+/*Pourcentage calcul: largeur: 960px / 140x100:960 = 14.5833333% */
+/*Pourcentage calcul: largeur: 960px / 380x100:960 = 41.6666667% */
+
+#form input[type=submit] {
+    width: 14.5833333%;
+	margin-left: 41.6666667%;
+}
+
+/*Pourcentage calcul: largeur: 960px / 140x100:960 = 14.5833333% */
+/*Pourcentage calcul: largeur: 960px / 380x100:960 = 41.6666667% */
+
+button{
+  width: 14.5833333%;
+	margin-left: 41.6666667%;
+  text-decoration: underline;
+  font-style: italic;
+  background: transparent;
+  border: none;
+  text-align: right;
+  
+}
+
+#header p{
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#header {
+	height: 142px;
+}
+
+#message {
+ margin: 0 0 20px 0;
+ }
+
+
+
